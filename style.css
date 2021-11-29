@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:url("images/icecream.jpg");
+}
+.navbar {
+    width: 100%;
+    background:rgb(10, 188, 232);
+}
+
+nav ul li a:hover{
+    background: rgb(80, 248, 192);
+}
+nav ul li{
+    color: rgb(8, 8, 8);
+}
+.menu{
+    display:block;
+}
+.menu .bt-menu{
+    color:midnightblue;
+}
+.menu span{
+    float: right;
+    font-size: 20px;
+}
+.cabecera ul{
+    overflow: hidden;
+    list-style: none;
+}
+.lista{
+    float: right;
+    display: none;
+}
+.cabecera ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    background: rgb(10, 188, 232);
+} 
+.cabecera ul li a:hover{
+    background:darkgray;
+}
+.cabecera ul li{
+    display: block;
+    border-bottom: 1px solid black;
+}
+
